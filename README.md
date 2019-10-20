@@ -1,4 +1,4 @@
-# CS-Learning Notes
+# CS Notebooks
 
-## A notebook for my daily study
+## Notebooks for my daily study
 
