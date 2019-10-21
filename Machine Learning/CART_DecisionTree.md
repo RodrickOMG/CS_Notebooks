@@ -18,6 +18,8 @@ CART决策树[Breiman et al., 1984] 使用“基尼指数”来选择划分属�
 CART决策树作为分类树时，特征属性可以是连续类型也可以是离散类型，但观察属性(即标签属性或者分类属性)必须是离散类型。
 划分的目的是为了能够让数据变纯，使决策树输出的结果更接近真实值。如果是分类树，CART决策树使用“基尼指数”来选择划分属性，数据集D的纯度可以用基尼值来度量：
 
+<div align=center>
+
 ![$$Gini(D)=\sum_{k=1}^{\vert \mathcal Y\vert}\sum_{k'\neq k}p_kp_{k'}$$](http://latex.codecogs.com/gif.latex?%24%24Gini%28D%29%3D%5Csum_%7Bk%3D1%7D%5E%7B%5Cvert%20%5Cmathcal%20Y%5Cvert%7D%5Csum_%7Bk%27%5Cneq%20k%7Dp_kp_%7Bk%27%7D%24%24)
 
 ![$$=1-\sum_{k=1}^{\vert \mathcal Y\vert}p_k^2 $$](http://latex.codecogs.com/gif.latex?%24%24%3D1-%5Csum_%7Bk%3D1%7D%5E%7B%5Cvert%20%5Cmathcal%20Y%5Cvert%7Dp_k%5E2%20%24%24)
