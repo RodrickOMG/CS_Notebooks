@@ -6,7 +6,7 @@
 
 ## 本文重点介绍CART决策树
 
-CART决策树[Breiman et al., 1984] 使用“基尼指数”来选择划分属性。这是西瓜书上给出的定义. 通过大量文章的阅读将CART决策树关键点整理如下：
+CART决策树[Breiman et al., 1984] 使用“基尼指数”来选择划分属性. 这是西瓜书上给出的定义. 通过大量文章的阅读将CART决策树关键点整理如下：
 
  1. CART决策树既能是分类树，也能是回归树
  2. 当CART是分类树时，采用GINI值作为节点分裂的依据；当CART是回归树时，采用样本的最小方差作为节点分裂的依据
@@ -24,4 +24,4 @@ CART决策树作为分类树时，特征属性可以是连续类型也可以是�
 
 ![$$=1-\sum_{k=1}^{\vert \mathcal Y\vert}p_k^2 $$](http://latex.codecogs.com/gif.latex?%24%24%3D1-%5Csum_%7Bk%3D1%7D%5E%7B%5Cvert%20%5Cmathcal%20Y%5Cvert%7Dp_k%5E2%20%24%24)
 
-直观来说，$Gini(D)$反映了从数据集$D$中随机抽取两个样本，其类别标记不一致的概率。因此，$Gini(D)$越小，则数据集$D$的纯度越高.
+直观来说，*![$$Gini(D)$$](http://latex.codecogs.com/gif.latex?%24%24Gini%28D%29%24%24)*反映了从数据集$D$中随机抽取两个样本，其类别标记不一致的概率。因此，*![$$Gini(D)$$](http://latex.codecogs.com/gif.latex?%24%24Gini%28D%29%24%24)*越小，则数据集$D$的纯度越高.
